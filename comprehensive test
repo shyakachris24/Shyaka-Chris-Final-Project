@@ -1,0 +1,32 @@
+=== TESTING NEW FUNCTIONS AND CURSORS ===
+
+1. Testing get_urgency_level():
+   Tomorrow: CRITICAL
+   2 months: WATCH
+   4 months: SAFE
+
+2. Testing get_total_medicine_value():
+   Total value: $8900
+
+3. Testing validate_batch_status():
+   Batch 1 status: EXPIRED
+
+4. Testing count_expiring_medicines():
+   Expiring in 30 days: 0
+
+5. Testing process_expired_batches():
+PROCESSING EXPIRED BATCHES
+==========================
+Marked as expired: BATCH-2024-101 - Amoxicillin 250mg (Expired: 30-NOV-2024)
+Marked as expired: BATCH-2024-001 - Paracetamol 500mg (Expired: 31-DEC-2024)
+Marked as expired: BATCH-2024-002 - Paracetamol 500mg (Expired: 15-MAR-2025)
+Marked as expired: BATCH-2024-201 - Vitamin C 100mg (Expired: 30-JUN-2025)
+==========================
+Total batches expired: 4
+   ? Cursor procedure executed
+
+=== TESTING COMPLETE ===
+
+
+PL/SQL procedure successfully completed.
+
